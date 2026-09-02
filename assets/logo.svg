@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 102" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">The Works</title>
+  <defs>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E7FF"/>
+      <stop offset="0.48" stop-color="#8257FF"/>
+      <stop offset="1" stop-color="#FF3DAE"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E7FF"/>
+      <stop offset="0.52" stop-color="#8257FF"/>
+      <stop offset="1" stop-color="#FF3DAE"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="96" height="96" rx="24" fill="url(#mark)"/>
+  <rect x="8" y="8" width="86" height="86" rx="19" fill="#0B0C17"/>
+  <path fill="#FFF" d="M19 25h32v11H41v40H29V36H19V25Zm31 0h12l7 29 7-29h12L76 76H64l-8-30-7 30H37l13-51Z"/>
+  <text x="119" y="41" fill="#FFF" font-family="Arial Black, Arial, sans-serif" font-size="21" font-weight="900" letter-spacing="5">THE</text>
+  <text x="116" y="78" fill="url(#word)" font-family="Arial Black, Arial, sans-serif" font-size="39" font-weight="900" letter-spacing="-1">WORKS</text>
+</svg>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080913" />
+    <meta
+      name="description"
+      content="The Works is a new game studio creating small, joyful games with clear rules and satisfying play. Meet our first game concept: Intern Sort."
+    />
+    <title>The Works — Game Studio</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/intern-sort-hero.webp" as="image" type="image/webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="The Works home">
+        <img src="assets/logo.svg" alt="" width="158" height="42" />
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#studio">Studio</a>
+        <a href="#game">Our game</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> New game studio</p>
+          <h1 id="hero-title">Small games.<br /><em>Big feelings.</em></h1>
+          <p class="hero-intro">
+            We make playful worlds that click in seconds—and stay with you
+            long after the screen goes dark.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#game">
+              Meet Intern Sort
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a class="text-link" href="#studio">Discover the studio <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Intern Sort game concept artwork">
+          <img
+            src="assets/intern-sort-hero.webp"
+            alt="Stylized interns following bright paths toward coding, art, audio and design workstations"
+            width="1680"
+            height="941"
+          />
+          <div class="hero-badge" aria-hidden="true">
+            <span>01</span>
+            <strong>IN<br />PLAY</strong>
+          </div>
+        </div>
+
+        <div class="scroll-cue" aria-hidden="true">
+          <span>SCROLL TO PLAY</span>
+          <i></i>
+        </div>
+      </section>
+
+      <section class="manifesto section" id="studio" aria-labelledby="studio-title">
+        <p class="section-number">01 / THE STUDIO</p>
+        <div class="manifesto-grid">
+          <h2 id="studio-title">Made for the moments <span>in between.</span></h2>
+          <div class="manifesto-copy">
+            <p>
+              The Works is a new game studio focused on compact, inviting
+              experiences. No long tutorials. No clutter. Just a clear idea,
+              a satisfying loop and one more go.
+            </p>
+            <p class="accent-copy">Easy to start. Hard to put down.</p>
+          </div>
+        </div>
+
+        <div class="values" aria-label="What guides our games">
+          <article>
+            <span class="value-icon" aria-hidden="true">◒</span>
+            <h3>Clear</h3>
+            <p>You know what to do. The fun is finding the smartest way to do it.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">✦</span>
+            <h3>Playful</h3>
+            <p>Bright ideas, friendly worlds and feedback that always feels good.</p>
+          </article>
+          <article>
+            <span class="value-icon" aria-hidden="true">↻</span>
+            <h3>Replayable</h3>
+            <p>Short sessions with enough surprise to make every return worthwhile.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="game-section section" id="game" aria-labelledby="game-title">
+        <div class="game-heading">
+          <p class="section-number">02 / NOW IN THE WORKS</p>
+          <span class="status"><i></i> In development</span>
+        </div>
+
+        <div class="game-card">
+          <div class="game-card-copy">
+            <p class="game-kicker">A fast sorting puzzle</p>
+            <h2 id="game-title">Intern<br /><span>Sort</span></h2>
+            <p class="game-tagline">Put every talent where it belongs.</p>
+            <p class="game-description">
+              Read the pattern, route each intern and beat the clock. Every
+              level is a tiny workplace puzzle designed for a quick burst of
+              focus and a very satisfying finish.
+            </p>
+
+            <dl class="game-facts">
+              <div>
+                <dt>Play time</dt>
+                <dd>± 20 sec</dd>
+              </div>
+              <div>
+                <dt>Platforms</dt>
+                <dd>Mobile + desktop</dd>
+              </div>
+              <div>
+                <dt>Audience</dt>
+                <dd>Everyone</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="game-mechanics" aria-label="Intern Sort highlights">
+            <div class="mechanic-card cyan">
+              <span aria-hidden="true">01</span>
+              <h3>Spot the pattern</h3>
+              <p>Read the room and match the right talent to the right place.</p>
+            </div>
+            <div class="mechanic-card pink">
+              <span aria-hidden="true">02</span>
+              <h3>Sort with a swipe</h3>
+              <p>Simple one-thumb controls keep every move quick and precise.</p>
+            </div>
+            <div class="mechanic-card yellow">
+              <span aria-hidden="true">03</span>
+              <h3>Beat the clock</h3>
+              <p>Complete compact challenges and come back for fresh daily play.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="section-number">03 / LET'S MAKE SOMETHING</p>
+        <h2 id="contact-title">Good ideas belong<br />in <span>motion.</span></h2>
+        <p>
+          The studio is taking shape. Follow the build, explore the work or
+          start a conversation with us on GitHub.
+        </p>
+        <a
+          class="button button-light"
+          href="https://github.com/The-Works-net/the-works.net"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Visit The Works on GitHub
+          <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <img src="assets/logo.svg" alt="The Works" width="158" height="42" loading="lazy" />
+      </a>
+      <p>Independent games, thoughtfully made.</p>
+      <p>© <span data-year>2026</span> The Works</p>
+    </footer>
+  </body>
+</html>
