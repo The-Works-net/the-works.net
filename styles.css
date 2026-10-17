@@ -291,8 +291,13 @@ h1 em {
 
 .hero-visual {
   position: relative;
+  min-height: 36rem;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.16);
+  background:
+    radial-gradient(circle at 20% 15%, rgba(0, 231, 255, 0.22), transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(255, 61, 174, 0.18), transparent 50%),
+    linear-gradient(160deg, var(--panel), var(--ink-soft));
   border-radius: clamp(1.5rem, 3vw, 3rem);
   box-shadow: 0 30px 100px rgba(0, 0, 0, 0.55), 0 0 80px rgba(130, 87, 255, 0.15);
 }
@@ -738,7 +743,7 @@ h1 em {
     max-width: 10ch;
   }
 
-  .hero-visual img {
+  .hero-visual {
     min-height: 28rem;
   }
 
@@ -789,9 +794,8 @@ h1 em {
     font-size: clamp(3.4rem, 17vw, 5.4rem);
   }
 
-  .hero-visual img {
+  .hero-visual {
     min-height: 23rem;
-    object-position: 63% center;
   }
 
   .section {
